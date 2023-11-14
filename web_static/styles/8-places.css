@@ -1,3 +1,6 @@
+/* === Places class style === */
+
+/* Places container style */
 .places {
     text-align: center;
     position: relative;
@@ -5,11 +8,13 @@
     padding-bottom: 40px;
   }
 
+/* Title style */
 .places h1 {
     text-align: left;
     font-size: 30px;
   }
 
+/* Article heading style */
 .places article h2 {
     text-align: center;
     font-size: 30px;
@@ -17,6 +22,7 @@
     margin-top: 10px;
   }
 
+/* Article container style */
 .places article {
     width: 390px;
     padding: 20px;
@@ -32,6 +38,7 @@
     position: relative;
   }
 
+/* Price by night badge style */
 .price_by_night {
     position: absolute;
     top: 10px;
@@ -45,12 +52,14 @@
     line-height: 60px;
   }
 
+/* Information section style */
 .information {
     height: 80px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
   }
 
+/* Icon styles for guests, rooms, and bathrooms */
 .max_guest {
     background-image: url("../images/icon_group.png");
   }
@@ -71,6 +80,7 @@
     background-repeat: no-repeat;
   }
 
+/* User and description section style */
 .user, .description {
     text-align: left;
     margin-bottom: 10px;

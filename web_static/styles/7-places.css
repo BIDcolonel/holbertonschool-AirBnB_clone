@@ -1,19 +1,25 @@
+/* === Places class style === */
+
+/* Places container style */
 .places {
     text-align: center;
     position: relative;
     z-index: -1;
   }
 
+/* Title style */
 .places h1 {
     text-align: left;
     font-size: 30px;
   }
-  
+
+/* Article heading style */
 .places article h2 {
     text-align: center;
     font-size: 30px;
   }
 
+/* Article container style */
 .places article {
     width: 390px;
     padding: 20px;
