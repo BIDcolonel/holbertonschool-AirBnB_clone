@@ -7,7 +7,7 @@
     border-radius: 4px;
     height: 70px;
     width: 100%;
-    display: inline-block;
+    display: block;
   }
 
 /* Search button style */
@@ -31,11 +31,12 @@
 /* Locations and amenities style */
 .filters .locations,
 .filters .amenities {
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
+    float: left;
     height: 100%;
     width: 25%;
-    position: relative;
+    line-height: 20px;
   }
 
 /* Locations border */
@@ -57,17 +58,23 @@
     display: none;
     position: absolute;
     width: 100%;
+    list-style-type: none;
+    margin-left: -1px;
+    margin-top: 8px;
+    padding: 25px 0px;
   }
 
 /* Locations and amenities popover hover */
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
-    display: block;
+    display: inline-block;
   }
 
 /* Locations list style */
 .filters .locations ul {
-    padding: 6px 0 6px 0;
+    list-style-type: none;
+    padding: 0px;
+    padding-bottom: 20px;
   }
 
 /* Locations list element margin */
