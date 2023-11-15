@@ -20,7 +20,11 @@
     height: 48px;
     margin: 12px 30px;
     width: 20%;
-    opacity: 0.9;
+  }
+
+/* Search button hover opacity */
+.filters button:hover {
+    background-color: rgba(255, 90, 95, .9);
   }
 
 /* Locations and amenities style */
